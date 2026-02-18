@@ -34,6 +34,7 @@ let user: {
 
 let val: {} = 'is a value';
 
+us
 let data: Record<string, number | string>;
 
 data = {
