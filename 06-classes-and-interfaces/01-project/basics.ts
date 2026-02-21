@@ -7,13 +7,12 @@
 //     }
 // }
 
-
 class User {
     readonly hobbies: string[] = [];
     constructor(
         public name: string,
         private age: number = 31,
-    ) { }
+    ) {}
 
     public greet() {
         console.log(`My page: ${this.age}`);
