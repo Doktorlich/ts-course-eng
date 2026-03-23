@@ -24,3 +24,4 @@ class User<T> {
     constructor(public notes: T) {}
 }
 const user = new User("swimming");
+ 
