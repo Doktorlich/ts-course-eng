@@ -1,0 +1,44 @@
+{
+    // visit https://a/tsconfig to read more about this file
+    "compilerOptions": {
+        // file layout
+        // "rootdir": "./src",
+        "outDir": "./dist",
+
+        // environment settings
+        // see also https://aka.ms/tsconfig/module
+        "module": "nodenext",
+        "target": "esnext",
+        "types": ["node"],
+        "esModuleInterop": true,
+        // for nodejs:
+        "lib": ["esnext", "dom"],
+        // "types": ["node"],
+        // and npm install -d @types/node
+
+        // other outputs
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+
+        // stricter typechecking options
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+
+        // style options
+        // "noimplicitreturns": true,
+        // "noimplicitoverride": true,
+        // "nounusedlocals": true,
+        // "nounusedparameters": true,
+        // "nofallthroughcasesinswitch": true,
+        // "nopropertyaccessfromindexsignature": true,
+
+        // recommended options
+        "strict": true,
+        "verbatimModuleSyntax": true,
+        "isolatedModules": true,
+        "noUncheckedSideEffectImports": true,
+        "moduleDetection": "force",
+        "skipLibCheck": true
+    }
+}
